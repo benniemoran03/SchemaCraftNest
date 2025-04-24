@@ -1,0 +1,23 @@
+
+---
+
+### **3. 25_LogBurstSignal**  
+**Description:**  
+Detects bursty and repetitive log patterns with heatmap-style frequency detection.
+
+#### **README.md**
+```markdown
+# LogBurstSignal - Log Spike and Repetition Detector
+
+LogBurstSignal helps identify noisy log segments and repeated errors that can indicate instability or performance issues.
+
+## Features
+- Keyword clustering  
+- Burst and repetition mapping  
+- CLI and timeline filters  
+
+## Usage
+```bash
+git clone https://github.com/your-username/25_LogBurstSignal.git
+cd 25_LogBurstSignal
+python analyze.py
